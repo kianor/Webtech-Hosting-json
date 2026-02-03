@@ -1,0 +1,254 @@
+[
+  {
+    "id": "VPS-001",
+    "name": "Starter Cloud",
+    "description": "De perfecte instapserver voor kleine projecten, websites en development omgevingen. Ideaal voor beginnende developers of hobbyprojecten die betrouwbare hosting nodig hebben zonder de bank te breken.",
+    "pricePerMonth": 4.99,
+    "isAvailable": true,
+    "launchDate": "2022-03-15",
+    "imageUrl": "https://example.com/images/servers/starter-cloud.jpg",
+    "serverType": "VPS",
+    "features": ["1 vCPU", "2GB RAM", "40GB NVMe SSD", "1TB Bandbreedte", "DDoS Protectie"],
+    "datacenter": {
+      "id": "DC-001",
+      "name": "Amsterdam AMS-1",
+      "location": "Amsterdam, Nederland",
+      "logoUrl": "https://example.com/images/datacenters/ams1-logo.jpg",
+      "foundedYear": 2012,
+      "tier": 4,
+      "totalRacks": 850,
+      "greenEnergy": true
+    }
+  },
+  {
+    "id": "VPS-002",
+    "name": "Developer Pro",
+    "description": "Krachtige VPS voor serieuze developers en kleine tot middelgrote applicaties. Met voldoende resources voor databases, API's en meerdere services tegelijk te draaien.",
+    "pricePerMonth": 12.99,
+    "isAvailable": true,
+    "launchDate": "2022-03-15",
+    "imageUrl": "https://example.com/images/servers/developer-pro.jpg",
+    "serverType": "VPS",
+    "features": ["2 vCPU", "4GB RAM", "80GB NVMe SSD", "2TB Bandbreedte", "DDoS Protectie", "Automatische Backups"],
+    "datacenter": {
+      "id": "DC-002",
+      "name": "Frankfurt FRA-2",
+      "location": "Frankfurt, Duitsland",
+      "logoUrl": "https://example.com/images/datacenters/fra2-logo.jpg",
+      "foundedYear": 2015,
+      "tier": 4,
+      "totalRacks": 1200,
+      "greenEnergy": true
+    }
+  },
+  {
+    "id": "VPS-003",
+    "name": "Business Essential",
+    "description": "Betrouwbare server voor zakelijke toepassingen en e-commerce platforms. Ontworpen voor bedrijven die uptime en performance als prioriteit hebben met 24/7 monitoring.",
+    "pricePerMonth": 24.99,
+    "isAvailable": true,
+    "launchDate": "2022-06-01",
+    "imageUrl": "https://example.com/images/servers/business-essential.jpg",
+    "serverType": "VPS",
+    "features": ["4 vCPU", "8GB RAM", "160GB NVMe SSD", "4TB Bandbreedte", "DDoS Protectie", "Dagelijkse Backups", "Priority Support"],
+    "datacenter": {
+      "id": "DC-001",
+      "name": "Amsterdam AMS-1",
+      "location": "Amsterdam, Nederland",
+      "logoUrl": "https://example.com/images/datacenters/ams1-logo.jpg",
+      "foundedYear": 2012,
+      "tier": 4,
+      "totalRacks": 850,
+      "greenEnergy": true
+    }
+  },
+  {
+    "id": "VPS-004",
+    "name": "Gaming Server",
+    "description": "Geoptimaliseerde server voor game hosting met lage latency en hoge single-thread performance. Perfect voor Minecraft, ARK, Valheim en andere multiplayer games.",
+    "pricePerMonth": 19.99,
+    "isAvailable": true,
+    "launchDate": "2023-01-10",
+    "imageUrl": "https://example.com/images/servers/gaming-server.jpg",
+    "serverType": "Game",
+    "features": ["4 vCPU (High Freq)", "8GB DDR5 RAM", "100GB NVMe SSD", "Unlimited Bandbreedte", "DDoS Protectie", "Game Panel Included"],
+    "datacenter": {
+      "id": "DC-002",
+      "name": "Frankfurt FRA-2",
+      "location": "Frankfurt, Duitsland",
+      "logoUrl": "https://example.com/images/datacenters/fra2-logo.jpg",
+      "foundedYear": 2015,
+      "tier": 4,
+      "totalRacks": 1200,
+      "greenEnergy": true
+    }
+  },
+  {
+    "id": "VPS-005",
+    "name": "Enterprise Cloud",
+    "description": "High-performance cloud server voor enterprise applicaties en grote workloads. Inclusief dedicated resources, SLA garantie en persoonlijke accountmanager voor optimale ondersteuning.",
+    "pricePerMonth": 89.99,
+    "isAvailable": true,
+    "launchDate": "2022-09-20",
+    "imageUrl": "https://example.com/images/servers/enterprise-cloud.jpg",
+    "serverType": "Cloud",
+    "features": ["8 vCPU", "32GB RAM", "500GB NVMe SSD", "10TB Bandbreedte", "Advanced DDoS", "Hourly Backups", "99.99% SLA", "Dedicated Account Manager"],
+    "datacenter": {
+      "id": "DC-003",
+      "name": "London LON-1",
+      "location": "Londen, Verenigd Koninkrijk",
+      "logoUrl": "https://example.com/images/datacenters/lon1-logo.jpg",
+      "foundedYear": 2018,
+      "tier": 3,
+      "totalRacks": 600,
+      "greenEnergy": false
+    }
+  },
+  {
+      "id": "VPS-006",
+      "name": "Storage Box",
+      "description": "Opslaggeoptimaliseerde server voor backup oplossingen, file servers en media hosting. Enorme opslagcapaciteit tegen een scherpe prijs voor data-intensieve toepassingen.",
+      "pricePerMonth": 14.99,
+      "isAvailable": true,
+      "launchDate": "2023-04-05",
+      "imageUrl": "https://example.com/images/servers/storage-box.jpg",
+      "serverType": "Storage",
+      "features": ["2 vCPU", "4GB RAM", "1TB HDD", "5TB Bandbreedte", "RAID-10", "FTP Access", "Rsync Support"],
+      "datacenter": {
+        "id": "DC-004",
+        "name": "Paris PAR-1",
+        "location": "Parijs, Frankrijk",
+        "logoUrl": "https://example.com/images/datacenters/par1-logo.jpg",
+        "foundedYear": 2020,
+        "tier": 4,
+        "totalRacks": 450,
+        "greenEnergy": true
+      }
+    },
+    {
+      "id": "VPS-007",
+      "name": "Web Hosting Plus",
+      "description": "Managed webhosting server met voorgeïnstalleerd control panel en one-click installers. Ideaal voor agencies en freelancers die meerdere websites beheren zonder technische rompslomp.",
+      "pricePerMonth": 9.99,
+      "isAvailable": true,
+    "launchDate": "2022-11-30",
+    "imageUrl": "https://example.com/images/servers/web-hosting-plus.jpg",
+    "serverType": "Managed",
+    "features": ["2 vCPU", "4GB RAM", "60GB NVMe SSD", "Unlimited Websites", "Free SSL", "cPanel Included", "Email Hosting"],
+    "datacenter": {
+      "id": "DC-001",
+      "name": "Amsterdam AMS-1",
+      "location": "Amsterdam, Nederland",
+      "logoUrl": "https://example.com/images/datacenters/ams1-logo.jpg",
+      "foundedYear": 2012,
+      "tier": 4,
+      "totalRacks": 850,
+      "greenEnergy": true
+    }
+  },
+  {
+    "id": "VPS-008",
+    "name": "Database Server",
+    "description": "Geoptimaliseerd voor database workloads zoals MySQL, PostgreSQL en MongoDB. Extra snel NVMe storage en veel RAM voor snelle queries en data processing.",
+    "pricePerMonth": 34.99,
+    "isAvailable": false,
+    "launchDate": "2023-07-15",
+    "imageUrl": "https://example.com/images/servers/database-server.jpg",
+    "serverType": "Database",
+    "features": ["4 vCPU", "16GB ECC RAM", "200GB NVMe SSD", "3TB Bandbreedte", "Automated Backups", "Read Replicas", "Query Optimization"],
+    "datacenter": {
+      "id": "DC-002",
+      "name": "Frankfurt FRA-2",
+      "location": "Frankfurt, Duitsland",
+      "logoUrl": "https://example.com/images/datacenters/fra2-logo.jpg",
+      "foundedYear": 2015,
+      "tier": 4,
+      "totalRacks": 1200,
+      "greenEnergy": true
+    }
+  },
+  {
+    "id": "VPS-009",
+    "name": "Minecraft Starter",
+    "description": "Budget-vriendelijke Minecraft server voor kleine communities tot 20 spelers. Inclusief Pterodactyl panel, plugin support en automatische world backups voor zorgeloos hosten.",
+    "pricePerMonth": 6.99,
+    "isAvailable": true,
+    "launchDate": "2024-01-20",
+    "imageUrl": "https://example.com/images/servers/minecraft-starter.jpg",
+    "serverType": "Game",
+    "features": ["2 vCPU", "4GB RAM", "30GB NVMe SSD", "Unlimited Players", "Pterodactyl Panel", "Plugin Support", "World Backups"],
+    "datacenter": {
+      "id": "DC-005",
+      "name": "Warsaw WAW-1",
+      "location": "Warschau, Polen",
+      "logoUrl": "https://example.com/images/datacenters/waw1-logo.jpg",
+      "foundedYear": 2022,
+      "tier": 3,
+      "totalRacks": 320,
+      "greenEnergy": true
+    }
+  },
+  {
+    "id": "VPS-010",
+    "name": "Dedicated Beast",
+    "description": "Onze krachtigste dedicated server voor de meest veeleisende workloads. Volledige hardware exclusiviteit, bare metal performance en maximale configuratie vrijheid voor professionals.",
+    "pricePerMonth": 149.99,
+    "isAvailable": true,
+    "launchDate": "2023-10-01",
+    "imageUrl": "https://example.com/images/servers/dedicated-beast.jpg",
+    "serverType": "Dedicated",
+    "features": ["16 Core Ryzen 9", "128GB DDR5 RAM", "2x 1TB NVMe SSD", "Unlimited Bandbreedte", "Full Root Access", "IPMI Access", "Hardware Firewall", "4 Hour Hardware Replacement"],
+    "datacenter": {
+      "id": "DC-002",
+      "name": "Frankfurt FRA-2",
+      "location": "Frankfurt, Duitsland",
+      "logoUrl": "https://example.com/images/datacenters/fra2-logo.jpg",
+      "foundedYear": 2015,
+      "tier": 4,
+      "totalRacks": 1200,
+      "greenEnergy": true
+    }
+  },
+  {
+    "id": "VPS-011",
+    "name": "Node.js Optimized",
+    "description": "Speciaal geconfigureerde server voor Node.js applicaties met PM2 process manager en geoptimaliseerde V8 engine settings. Perfect voor API's, Discord bots en real-time applicaties.",
+    "pricePerMonth": 15.99,
+    "isAvailable": true,
+    "launchDate": "2024-02-14",
+    "imageUrl": "https://example.com/images/servers/nodejs-optimized.jpg",
+    "serverType": "VPS",
+    "features": ["2 vCPU", "4GB RAM", "50GB NVMe SSD", "PM2 Pre-installed", "Node.js LTS", "MongoDB Ready", "SSL Certificates"],
+    "datacenter": {
+      "id": "DC-001",
+      "name": "Amsterdam AMS-1",
+      "location": "Amsterdam, Nederland",
+      "logoUrl": "https://example.com/images/datacenters/ams1-logo.jpg",
+      "foundedYear": 2012,
+      "tier": 4,
+      "totalRacks": 850,
+      "greenEnergy": true
+    }
+  },
+  {
+    "id": "VPS-012",
+    "name": "Reseller Package",
+    "description": "Complete reseller oplossing voor het starten van je eigen hosting bedrijf. Inclusief WHMCS licentie, white-label branding en alle tools om klanten te beheren en factureren.",
+    "pricePerMonth": 59.99,
+    "isAvailable": false,
+    "launchDate": "2024-06-01",
+    "imageUrl": "https://example.com/images/servers/reseller-package.jpg",
+    "serverType": "Reseller",
+    "features": ["8 vCPU", "16GB RAM", "300GB NVMe SSD", "WHMCS Included", "White-label", "Unlimited Accounts", "Private Nameservers", "24/7 Support"],
+    "datacenter": {
+      "id": "DC-004",
+      "name": "Paris PAR-1",
+      "location": "Parijs, Frankrijk",
+      "logoUrl": "https://example.com/images/datacenters/par1-logo.jpg",
+      "foundedYear": 2020,
+      "tier": 4,
+      "totalRacks": 450,
+      "greenEnergy": true
+    }
+  }
+]
